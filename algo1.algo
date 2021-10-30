@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+    wordNumber, vowelNumber, charNum: INTEGER ;
+    character: CHAR
+BEGIN
+    WHILE (character < ".") DO 
+    charNum := charNum+1
+     IF (character = "o" OR character = "i" OR character = "e" OR character = "u" OR character = "a" OR character = "y") THEN
+     vowelNumber: vowelNumber+1;
+     IF (character = " ") THEN
+     wordNumber: = wordNumber + 1
+     END_IF
+     END_IF
+END_WHILE
+ write("Number of words":wordNumber+1;"Number of characters":charNum+1;"Number of vowels":vowelNumber) ;
+    END
